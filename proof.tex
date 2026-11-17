@@ -1,0 +1,54 @@
+\documentclass[10pt]{article}
+\usepackage[paperwidth=170mm,paperheight=225mm,left=17mm,right=17mm,top=14mm,bottom=14mm]{geometry}
+\usepackage{amsmath}
+\usepackage[mathrm=sym]{unicode-math}
+\setmainfont{NewCM10-Book.otf}
+\setmathfont{STIXTwoMath-Regular.otf}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4.5pt}
+\begin{document}
+\fontsize{10.6}{14.0}\selectfont
+{\fontsize{29}{32}\selectfont Downward Glance}\par
+{\fontsize{15}{18}\selectfont Proof of the integer value}\par
+\vspace{3pt}
+The opening floor contains one integral from $-3$ to $3$ in the real variable $l$.
+The large parenthesis ends just before $\mathrm{d}l$. Each continuation begins
+with $+$. Reading the printed integrand by ordinary precedence gives 2,507
+products in 216 lines.
+
+\smallskip{\fontsize{14}{17}\selectfont Six intervals suffice}\par
+Cut the integral at $-2,-1,0,1,2$. On every resulting open unit interval
+$\lfloor l\rfloor$ and $\lceil l\rceil$ are constants, and $|l|$ is affine.
+The other moduli have affine arguments of constant sign there.
+Their zeroes and discrete jumps occur only at interval endpoints.
+Endpoint values exist and have no effect on these integrals.
+
+Factorials, binomials and finite sums or products are evaluated directly.
+A repeated decimal block of $m$ digits with integer value $b$ contributes
+$b/(10^m-1)$. Each printed radical has a nonnegative rational square as its
+radicand. A two-by-two determinant contributes $ad-bc$ in row order.
+An inner moment with upper limit $B(l)\geq0$ contributes
+\[
+   \int_0^{B(l)} t^p\,\mathrm{d}t=\frac{B(l)^{p+1}}{p+1},\qquad \int_0^{|l|}t^4\,\mathrm{d}t=\frac{|l|^5}{5}.
+\]
+The remaining inner integrals have constant bounds and polynomial integrands.
+All divisors are nonzero. Consequently each product on each interval is a
+polynomial over the rationals. Its degree is at most 13.
+
+\smallskip{\fontsize{14}{17}\selectfont Exact computation}\par
+The score evaluator expands these polynomials and integrates each monomial.
+A second evaluator parses the complete printed TeX. For degree bound $d$, it
+samples the polynomial at the $d+1$ interior points
+$j+k/(d+2)$, $1\leq k\leq d+1$, on $(j,j+1)$.
+Integrating the Lagrange basis gives rational weights exact through degree $d$.
+Both calculations agree separately on every line. For the unrounded integral
+$I$ and the integer $N$, the resulting equality is
+\[
+ I=N+\frac{17602437396215302323978349}{25410946577841365997456000},\qquad 0<I-N<1 .
+\]
+\smallskip{\fontsize{14}{17}\selectfont The printed floor}\par
+\[
+   \lfloor I\rfloor=N=-373\,571\,877\,419\,178\,597\,233\,231\,125\,653 .
+\]
+\end{document}

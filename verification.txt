@@ -1,0 +1,23 @@
+DOWNWARD GLANCE
+Exact mathematical and rendering verification
+
+Integer  -373571877419178597233231125653
+Integral before taking its floor  -9492815020082650644781733906529699190289606712014789651 / 25410946577841365997456000
+Fraction discarded by the floor  17602437396215302323978349 / 25410946577841365997456000
+
+The standalone TeX was parsed from its first floor to its final differential and closing floor. All 216 lines, 215 explicit continuation plus signs, 2,507 additive products, and 35,359 printed factor occurrences match the semantic score. Each whole line was also reparsed after removing invisible atom braces.
+The integrand contains 232 inner definite integrals, 52 finite sums, 60 finite products, and 32 two-by-two determinants, counted with multiplicity.
+Every one of the 764 distinct parsed factors also agrees with its score value separately, at sufficiently many exact points to identify its polynomial on each interval.
+
+On each of the six open unit intervals from −3 to 3, the score evaluator expands each product in rational polynomial coefficients and integrates its monomials. The separate TeX evaluator proves there are no interior sign or integer crossings under the relevant fences, bounds every local degree (maximum 13), and uses exact interior Lagrange quadrature. All row integrals agree as rational numbers. Every printed factor is defined at all seven integer endpoints.
+SHA-256 of ordered row integrals, numerator/denominator joined with LF  e141bd5c34fe539ff448aeb20c39ee1028833747c560ff251b730341da02595c
+
+Freshly compiled one vector page with 147,889 glyph occurrences, one embedded STIX Two Math Regular subset, and 1,920 native horizontal mathematical rules. Zero image objects. All glyphs and rules use opaque black. The compile log passed checks for overfull boxes and missing characters.
+PDF page  2481.69 × 2266.15 PostScript points
+PNG  7680 × 7013 pixels, 8-bit grayscale antialiasing, rasterized at twice the export width and reduced with Lanczos. A second rendering matched every pixel.
+White edge clearances at ink contrast > 18/255, left/top/right/bottom  (26, 25, 27, 24)
+TeX source SHA-256  68dd0eb3b0b21b36e7c1a4d76dd1ebe114007107de6761279bc504051f5ffa24
+PDF SHA-256  95f2e9de8a9c55abeb5e8cc57b6e17ae991cd65fd5b3b400e86ba7c67fa94400
+PNG SHA-256  b199f47cb2bc76d1b19b043f24328ac707ad495812ea588032cc72522cfb0ce4
+
+The arithmetic checks are exact. Tonal resemblance and the legibility of the densest hatching are visual judgments. The darkest pencil-like passages still contain white paper between the glyphs.

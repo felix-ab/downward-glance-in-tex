@@ -1,0 +1,5 @@
+1. A face in headphones, typeset as one mathematical expression. Its exact value is −373571877419178597233231125653.
+
+2. The highlight on the lower lip is whitespace between terms. Zoom in and the shadow around it becomes floors, absolute values and factorials.
+
+3. One integral runs through all 216 lines of this portrait. Taking its floor gives a 30-digit negative integer.

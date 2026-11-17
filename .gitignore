@@ -1,0 +1,10 @@
+.venv/
+.work/
+private/
+comparison.png
+contact_sheet.png
+__pycache__/
+*.aux
+*.log
+.DS_Store
+.ruff_cache/
