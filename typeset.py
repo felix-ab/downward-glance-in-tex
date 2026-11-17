@@ -32,7 +32,7 @@ def compile_tex(path, cached=False):
     ]
     if cached or os.environ.get("TECTONIC_ONLY_CACHED") == "1":
         cmd.append("--only-cached")
-    env = dict(os.environ, SOURCE_DATE_EPOCH="1704067200", FORCE_SOURCE_DATE="1")
+    env = dict(os.environ, SOURCE_DATE_EPOCH="1794916800", FORCE_SOURCE_DATE="1")
     result = subprocess.run(
         [*cmd, str(path)],
         cwd=ROOT,

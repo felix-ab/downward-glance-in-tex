@@ -32,7 +32,7 @@ One evaluator expands the score into rational polynomial coefficients and integr
 
 ## Rebuild
 
-The recorded build used CPython 3.12.3, Tectonic 0.17.0 with its XeTeX engine, and Tectonic resource bundle v33. The font file is STIXTwoMath-Regular.otf from that bundle. The Python package versions are pinned. With Tectonic and uv on the executable path, run this command from the repository.
+The recorded build used CPython 3.12.3, Tectonic 0.17.0 with its XeTeX engine, and Tectonic resource bundle v33. The font file is STIXTwoMath-Regular.otf from that bundle. The Python package versions are pinned. The PDF timestamp is fixed to 17 November 2026 for reproducible exports. With Tectonic and uv on the executable path, run this command from the repository.
 
 ```sh
 uv run --python 3.12 --with-requirements requirements.txt python generate.py

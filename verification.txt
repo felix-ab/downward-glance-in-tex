@@ -17,7 +17,7 @@ PDF page  2481.69 × 2266.15 PostScript points
 PNG  7680 × 7013 pixels, 8-bit grayscale antialiasing, rasterized at twice the export width and reduced with Lanczos. A second rendering matched every pixel.
 White edge clearances at ink contrast > 18/255, left/top/right/bottom  (26, 25, 27, 24)
 TeX source SHA-256  68dd0eb3b0b21b36e7c1a4d76dd1ebe114007107de6761279bc504051f5ffa24
-PDF SHA-256  95f2e9de8a9c55abeb5e8cc57b6e17ae991cd65fd5b3b400e86ba7c67fa94400
+PDF SHA-256  59a3f1cf030e0b765804422f1f0fdc3a665ea79c53dcad1e3f6b4c7ac0376c8f
 PNG SHA-256  b199f47cb2bc76d1b19b043f24328ac707ad495812ea588032cc72522cfb0ce4
 
 The arithmetic checks are exact. Tonal resemblance and the legibility of the densest hatching are visual judgments. The darkest pencil-like passages still contain white paper between the glyphs.
